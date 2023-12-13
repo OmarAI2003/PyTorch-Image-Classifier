@@ -1,0 +1,7 @@
+pip install torch==1.9.0 --upgrade tqdm
+
+
+keyword args
+python train.py --gpu --arch vgg13 --hidden_units 25088 --data_dir ./flowers --save_dir vgg13_checkpoint.pth --epochs 2 --learning_rate 0.001
+python predict.py --img flowers/test/10/image_07090.jpg --checkpoint vgg13_checkpoint.pth --categ_names cat_to_name.json --top_k 5
+
