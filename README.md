@@ -4,7 +4,7 @@ In this project, I first developed code for an image classifier built with PyTor
 ## The Data
 https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html
 
-### Files
+## Files
  Image Classifier Project: 
            A Jupyter notebook to implement an image classifier with PyTorch.
  model.py : 
@@ -17,3 +17,10 @@ https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html
            Helper functions used throughout the files to load model checkpoints and process images.
 cat_to_name.json: 
            This will give you a dictionary mapping the integer encoded categories to the actual names of the flowers.
+
+
+### Accuracy
+
+### train..81% 
+### test..79% 
+
