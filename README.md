@@ -1,10 +1,10 @@
 # PyTorch-Image-Classifier
 In this project, I first developed code for an image classifier built with PyTorch and then converted it into a command-line application.
 
-##The Data
+## The Data
 https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html
 
-###Files
+### Files
  Image Classifier Project: A Jupyter notebook to implement an image classifier with PyTorch.
  model.py : train a new network on a dataset and save the model as a checkpoint.
  train.py: command line arguments that will allow user to choose (from two different architectures, set hyperparameters for learning rate, number of hidden units, and training epochs, GPU or cpu)
